@@ -1,7 +1,7 @@
 ### Simple Redis & Mysql client keystore with built-in caching
 
 #### Why Use This Library?
-caching data is really important for apps that require low-latency, such as games. it has never been easier to do this!
+> caching data is really important for apps that require low-latency, such as games. it has never been easier to do this!
 
 #### Installation:
 ```npm install redis-mysql-store```
@@ -22,8 +22,8 @@ const db = new Database({
 });
 ```
 
-now you can use db.set, db.get, db.delete, db.redis, db.sql and/or even interact directly with the client (MYSQL2 CONNECTION/REDIS CLIENT). (db.mysqlClient, db.redisClient).
+##### now you can use db.set, db.get, db.delete, db.redis, db.sql and/or even interact directly with the client (MYSQL2 CONNECTION/REDIS CLIENT). (db.mysqlClient, db.redisClient).
 
-find more options and config from types.
+*find more options and config from types.*
 
-Happy Coding! <3
+* Happy Coding! <3
